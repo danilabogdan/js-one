@@ -1,77 +1,101 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
-
-:root {
-
-    --almost-white: hsl(0, 0%, 98%);
-    --medium-gray: hsl(0, 0%, 41%);
-    --almost-black: hsl(0, 0%, 8%);
-
-    --font-size: 18px;
-
-}
 
 
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Epilogue', sans-serif;
+    box-sizing: border-box;
+    border: 1px solid lightgoldenrodyellow;
 }
 
 
-.nav-bar {
+
+:root {
+    --almost-white:hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+
+
+
+    --text-size: 18px;
+}
+
+
+
+.navbar {
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-bar .logo {
-    margin-left: 40px;
+
+.menu-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+
+.menu-left img {
+    margin-left: 50px;
+}
+/* 
 
 .nav-links {
     display: flex;
     flex-direction: row;
+} */
+
+ul {
+    display: flex;
 }
 
 
-.nav-links ul {
- display: flex;
- flex-direction: row;
- gap: 24px;   
-}
-
-.nav-links ul li {
-   list-style-type: none;
-   color: var(--medium-gray);
-   font-weight: 500;
-   letter-spacing: 0.5px;
+ul li {
+    list-style-type: none;
 }
 
 
+ul li a {
+    text-decoration: none;
+    margin-left: 80px;
+    color: var(--almost-black);
+}
 
-
-
-.right-menu button {
-    margin-right: 36px;
-    font-size: var(--font-size);
+.menu-right button {
     border: none;
-    background-color: transparent;
-    padding: 12px;
-    border-radius: 12px;
+    background: transparent;
+    margin-right: 80px;
+    font-size: var(--text-size);
 }
 
-.right-menu button a {
+.menu-right button a{
     text-decoration: none;
     color: var(--medium-gray);
 }
 
 
-#register-btn {
-    border: 2px solid var(--medium-gray);
+
+#btn-register {
+    border: 2px solid rgb(179, 167, 167);
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 15px;
 }
+
+
+.container {
+    display: flex;
+    width: 1440px;
+    margin-left: 170px;
+}
+
+
+.container .left-section h1 {
+    font-size: 4.4rem;
+}
+
 

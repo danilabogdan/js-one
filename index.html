@@ -2,61 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropddown menu</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <script defer src="app.js"></script>
 </head>
 <body>
-
-<div class="nav-bar">
-
-  <div class="logo">
-    <img src="images/logo.svg" alt="">
+  
+  <div class="navbar">
+    <div class="menu-left">
+      <img src="images/logo.svg" alt="">
+      <div class="nav-links">
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-right">
+      <button><a href="#">Login</a></button>
+      <button><a href="#" id="btn-register">Register</a></button>
+    </div>
   </div>
-  <div class="nav-links">
-    <ul>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Company</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">About</a></li>
-    </ul>
+
+
+  <div class="container">
+    <div class="left-section">
+      <h1>Make <br> remote work</h1>
+      <p>Get your team in sync,no matter your location.Streamline processes,creating rituals,and watch productivity soar.</p>
+      <button>Learn more</button>
+      <div class="main-logos">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+
+    <div class="right-section">
+      <img src="images/image-hero-desktop.png" alt="">
+    </div>
   </div>
-  <div class="right-menu">
-    <button><a href="#">Login</a></button>
-    <button id="register-btn"><a href="#">Register</a></button>
-  </div>
-</div>
 
 
-
-<!-- 
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-   -->
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.danilabogdan.tech">Danila Bogdan</a>.
-  </div>
 </body>
 </html>
