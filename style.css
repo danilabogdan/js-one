@@ -89,13 +89,35 @@ ul li a {
 
 .container {
     display: flex;
-    width: 1440px;
+    /* width: 1440px; */
     margin-left: 170px;
 }
 
 
 .container .left-section h1 {
     font-size: 4.4rem;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.container .left-section p {
+    color: var(--medium-gray);
+    font-size: var(--text-size);
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.container .left-section button {
+    padding: 12px 24px;
+    color: white;
+    background: black;
+    font-size: var(--text-size);
+    border-radius: 12px;
+}
+
+
+.container .left-section .main-logos {
+    margin-top: 120px;
 }
 
 
