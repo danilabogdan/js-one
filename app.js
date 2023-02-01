@@ -1,8 +1,7 @@
+ function changeClass () {
+ 
+ 
+ const get = document.querySelector('small-menu-box-1');
+    get.classList.toggle("hide")
 
-const show = document.getElementById('#small-menu-1');
-
-
-
-show.addEventListener('click', () => {
-    show.classList.add('show');
-})
+ }
